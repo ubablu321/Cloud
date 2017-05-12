@@ -26,22 +26,22 @@
         <ImageView
             android:id="@+id/fb"
             android:layout_width="120dp"
-            android:layout_height="130dp"
+            android:layout_height="120dp"
             android:background="@drawable/facebbok"
             />
         <ImageView
             android:id="@+id/yt"
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:background="@drawable/youtube"
             android:layout_toRightOf="@id/fb"
+            android:background="@drawable/youtube"
             android:padding="10dp"/>
         <ImageView
             android:id="@+id/c"
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:background="@drawable/chase"
-            android:layout_toRightOf="@id/yt"/>
+            android:layout_toRightOf="@id/yt"
+            android:background="@drawable/chase"/>
     </RelativeLayout>
 
     <android.support.design.widget.FloatingActionButton
